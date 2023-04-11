@@ -131,8 +131,7 @@
     "@storybook/core-common": "7.1.0-alpha.1",
     "@storybook/manager-api": "7.1.0-alpha.1",
     "@storybook/node-logger": "7.1.0-alpha.1",
-    "@storybook/preview-api": "7.1.0-alpha.1",
-    "ts-dedent": "^2.0.0"
+    "@storybook/preview-api": "7.1.0-alpha.1"
   },
   "devDependencies": {
     "@storybook/vue": "7.1.0-alpha.1",

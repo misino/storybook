@@ -130,12 +130,12 @@ const argTypes = {
     table: {
       type: { summary: 'string' },
       defaultValue: { summary: 'Hello' },
-    }
+    },
     control: {
-      type: 'text'
-    }
-  }
-}
+      type: 'text',
+    },
+  },
+};
 ```
 
 In this `ArgTypes` data structure, `name`, `type`, `defaultValue`, and `description` are standard fields in all `ArgTypes` (analogous to `PropTypes` in React). The `table` and `control` fields are addon-specific annotations. So, for example, the `table` annotation provides extra information to customize how `label` gets rendered, and the `control` annotation provides extra information for the control for editing the property.
@@ -172,12 +172,12 @@ const argTypes = {
     table: {
       type: { summary: 'something short', detail: 'something really really long' },
       defaultValue: { summary: 'Hello' },
-    }
+    },
     control: {
-      type: null
-    }
-  }
-}
+      type: null,
+    },
+  },
+};
 ```
 
 This would render a row with a modified description, a type display with a dropdown that shows the detail, and no control.
